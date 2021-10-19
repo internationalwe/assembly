@@ -81,5 +81,26 @@
     <MASM Include="temp.asm">
       <Filter>소스 파일</Filter>
     </MASM>
+    <MASM Include="mul.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="muldiv.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="extadd.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="strcpy.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="blkcmp.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="fill.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="albl4.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
