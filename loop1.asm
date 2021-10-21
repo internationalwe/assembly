@@ -10,7 +10,7 @@ main proc
 	mov ecx, LENGTHOF intarray
 	mov eax,0
 	L1:
-	add eax, [edi]
+	add ax, [edi]
 	add edi,2
 	call DumpRegs
 	loop L1

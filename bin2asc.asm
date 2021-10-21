@@ -8,6 +8,7 @@ buffer BYTE 32 DUP(0),0 ;	binary	string
 .code	
 main proc
 	 mov eax,value
+
 	 mov ecx,32
 	 mov esi,OFFSET buffer
 	L1: shl eax,1 ;	CF	<-	MSB

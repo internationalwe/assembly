@@ -9,9 +9,9 @@ sentinel SWORD 0
 
 .code
 main proc
-	mov ax , FFFFh;
-	add ax, 1
-	call dumpregs
+	mov eax,4823424
+	mov ebx, -423
+	imul ebx ;
 	mov eax, 0;
 	call exitprocess
 main endp

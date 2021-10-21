@@ -1,5 +1,6 @@
 include print.inc
 matrix1 equ 10 * 10
+count = 10
 matrix2 equ matrix1
 msg textequ <"system programming", 0ah, 0dh, 0>
 movcx textequ <mov ecx, matrix2 + 5>
@@ -11,7 +12,9 @@ ListSize = ($ - list) / 4 ; size of list
 
 .code
 main proc
-	mov eax, matrix1
+	mov list, matrix1
+	mov edi, 10
+	imul edi, count
 	mov ebx, ListSize
 	
 	movcx ; "mov ecx, 105"

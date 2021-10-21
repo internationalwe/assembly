@@ -45,7 +45,7 @@
     <MASM Include="mov.asm">
       <Filter>소스 파일</Filter>
     </MASM>
-    <MASM Include="changelist.asm">
+    <MASM Include="albl1.asm">
       <Filter>소스 파일</Filter>
     </MASM>
     <MASM Include="arith.asm">
@@ -75,9 +75,6 @@
     <MASM Include="conditional1.asm">
       <Filter>소스 파일</Filter>
     </MASM>
-    <MASM Include="conditional2.asm">
-      <Filter>소스 파일</Filter>
-    </MASM>
     <MASM Include="temp.asm">
       <Filter>소스 파일</Filter>
     </MASM>
@@ -100,6 +97,9 @@
       <Filter>소스 파일</Filter>
     </MASM>
     <MASM Include="albl4.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="albl3.asm">
       <Filter>소스 파일</Filter>
     </MASM>
   </ItemGroup>
