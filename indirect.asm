@@ -26,5 +26,5 @@ main proc
 	
 	mov eax, 0 ;	exit	0
 	call ExitProcess
-	main endp
-	end main
+main endp
+end main

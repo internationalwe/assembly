@@ -102,5 +102,23 @@
     <MASM Include="albl3.asm">
       <Filter>소스 파일</Filter>
     </MASM>
+    <MASM Include="call.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="reverse.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="sumof.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="arraysum.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="copyarray.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
+    <MASM Include="addthree.asm">
+      <Filter>소스 파일</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
